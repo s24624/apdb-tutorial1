@@ -13,10 +13,10 @@
 
     public static double average(int[] tab)
     {
-        int sum = 0;
+        int sum12 = 0;
         for (int i = 0; i < tab.Length; i++)
-            sum += tab[i];
-        return sum / tab.Length;
+            sum12 += tab[i];
+        return sum12 / tab.Length;
     }
 
     public static int featureMax(int[] tab)
